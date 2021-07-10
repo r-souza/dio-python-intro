@@ -1,6 +1,6 @@
-note = int(input('Enter a note: '))
+grade = int(input('Enter a grade: '))
 
-while note > 10:
-    note = int(input('Invalid note, enter a nota below or equal to 10: '))
+while grade > 10:
+    grade = int(input('Invalid grade, enter a grade less than or equal to 10: '))
 
-print('Note entered: {}'.format(note))
+print('Grade entered: {}'.format(grade))
